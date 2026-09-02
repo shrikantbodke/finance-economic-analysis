@@ -1,0 +1,11 @@
+indicator_id,indicator_code,indicator_name,category,unit
+1,GDP_GROWTH,GDP growth,Growth,%
+2,GDP_PC,GDP per capita,Growth,USD
+3,INFLATION,Inflation,Monetary,%
+4,UNEMPLOYMENT,Unemployment,Labor,%
+5,GOV_DEBT,Government debt,Fiscal,% GDP
+6,FDI,Foreign direct investment,Investment,USD
+7,EXPORTS,Exports,Trade,USD
+8,IMPORTS,Imports,Trade,USD
+9,CURRENT_ACCOUNT,Current account balance,External,% GDP
+10,POPULATION,Population,Demographics,Number
