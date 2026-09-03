@@ -7,7 +7,7 @@ def fetch_world_bank_data(country_code, indicator_code, start_year, end_year):
         f"{indicator_code}?date={start_year}:{end_year}&format=json&per_page=100"
     )
 
-    response = requests.get(url, timeout=30)
+    response = requests.get(url, timeout=90)
     response.raise_for_status()
 
     return response.json()
